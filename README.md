@@ -1,6 +1,6 @@
-# Mexican National Seismological Service (Twitter) Data Pipeline Airflow
+# Mexican National Seismological Service(Twitter) Data Pipeline Airflow
 
-## Data pipeline
+## Data pipeline Hadoop(Big data)
 
 ## Data pipeline Lite
 Extract tweets from Mexican National Seismological Service and stored in  an amazon s3 bucket, all running in an EC2 instance.
