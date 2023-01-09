@@ -1,4 +1,4 @@
-# Nexican nNational Seismological Service (Twitter) Data Pipeline Airflow
+# Mexican National Seismological Service (Twitter) Data Pipeline Airflow
 
 ## Data pipeline
 
