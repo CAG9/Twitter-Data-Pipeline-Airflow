@@ -3,7 +3,7 @@
 ## Data pipeline
 
 ## Data pipeline Lite
-
+Extract tweets from Mexican National Seismological Service and stored in  an amazon s3 bucket, all running in an EC2 instance.
 ## Results
 ![Dag](https://github.com/CAG9/Twitter-Data-Pipeline-Airflow/blob/main/Twitter-Pipeline-Hadoop/Dag.png)
 ![Hive table](https://github.com/CAG9/Twitter-Data-Pipeline-Airflow/blob/main/Twitter-Pipeline-Hadoop/Hive.png)
