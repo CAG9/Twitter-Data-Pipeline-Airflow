@@ -1,7 +1,14 @@
 # Mexican National Seismological Service(Twitter) Data Pipeline Airflow
 
 ## Data pipeline Hadoop(Big data)
+* Extract tweets from the Mexican National Seismological Service account with the Twitter api and Tweepy and save it in a csv file
+* Check if the file has been created correctly
+* Move the csv file to hdfs
+* Create a hive table for storing data
+* Create a PySpark script to process and insert the data into the hive table
+* Send an email notification when the data pipeline is completed
 
+Orchestrated by Airflow
 ## Data pipeline Lite
 Extract tweets from Mexican National Seismological Service and stored in  an amazon s3 bucket, all running in an EC2 instance.
 ## Results
