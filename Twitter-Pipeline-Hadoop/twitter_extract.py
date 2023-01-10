@@ -32,4 +32,4 @@ def twitter_extract():
         cleaned_tweets.append(refined_tweet)
     df = pd.DataFrame(cleaned_tweets)
     #df.to_csv('s3://cesar-airflow-tweets-pipeline/SismologicoMX_twitter_data.csv')
-    df.to_csv('/opt/airflow/dags/files/SismologicoMX_twitter_data.csv')
+    df.to_csv('/opt/airflow/dags/files/SismologicoMX_twitter_data.csv', index = False)
