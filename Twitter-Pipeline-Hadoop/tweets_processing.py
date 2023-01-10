@@ -19,11 +19,10 @@ df = spark.read.csv('hdfs://namenode:9000//SismologicoMxtweets/SismologicoMX_twi
 
 # Rename user column to twitter_account
 df = df.withColumnRenamed('user','twitter_account')
-df = df.withColumnRenamed('_c0','index')
 
 #df.printSchema()
 # Drop the duplicated rows based on the base and last_update columns
-tweets = df.select('index','created_at', 'twitter_account', 'text', 'favorite_count', 'retweet_count')
+tweets = df.select('created_at', 'twitter_account', 'text', 'favorite_count', 'retweet_count')
 #    .dropDuplicates(['created_at'])
 #tweets.show()
 # Export the dataframe into the Hive table forex_rates
