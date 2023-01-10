@@ -16,12 +16,6 @@ import json
 ###################################################################################
 from twitter_extract import twitter_extract
 
-
-
-
-
-
-
 default_args = {
             "owner": "Airflow",
             "start_date": airflow.utils.dates.days_ago(10),
@@ -65,7 +59,6 @@ with DAG(dag_id="twitter_data_pipeline_hdfs", schedule_interval="@daily", defaul
         hive_cli_conn_id="hive_conn",
         hql="""
             CREATE EXTERNAL TABLE IF NOT EXISTS sismologicomx_tweets(
-                index STRING,
                 created_at DATE,
                 twitter_account STRING,
                 text STRING,
