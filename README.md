@@ -18,7 +18,7 @@ Extract tweets from Mexican National Seismological Service and stored in  an ama
 ![Hive table](https://github.com/CAG9/Twitter-Data-Pipeline-Airflow/blob/main/Twitter-Pipeline-Hadoop/Hive.png)
 
 
-## Tools and Technologies
+## Tools and Technologies:
 - Python 3
 - Pyspark
 - AWS
